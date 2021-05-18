@@ -1,0 +1,136 @@
+body {
+	margin: 0;
+}
+
+body {
+    overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+body::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
+}
+
+/*Navigation Bar*/
+.nav-container {
+	width: auto;
+	height: 10rem;
+	background-color: #663000;
+}
+
+nav img {
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+@media (max-width: 500px){
+	nav img {
+		width: 50px;
+		height: 30px;
+	}
+}
+
+nav span {
+	position: relative;
+	bottom: 50px;
+	margin-left: 250px;
+	margin-right: 250px;
+	color: #FFF017;
+	font-family: 'Tahoma',sans-serif;
+	font-weight: 500;
+	font-size: 3.8rem;
+	text-shadow: 5px 5px 15px black;
+}
+
+.nav-list {
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+	margin-top: -10px;
+	background-color: rgb(77, 36, 0, 0.7);
+}
+
+nav a {
+	text-decoration: none;
+	padding-left: 65px;
+	padding-right: 65px;
+	color: white;
+	font-family: 'Geneva',sans-serif;
+	font-size: 25px;
+	font-weight: 530;
+}
+
+nav a:hover {
+	color: #FFF017;
+	background-color: rgb(0, 0, 0, 0.3);
+	transition: ease-in-out 0.5s;
+}
+
+/*Header*/
+.head-item1 {
+	position: relative;
+	width: auto;
+	height: 30rem;
+	border: 3px;
+}
+
+.head-item2 {
+	position: relative;
+	width: 25rem;
+	height: 400px;
+	background-color: grey;
+	left: 100px;
+	top: 100px;
+	padding-top: 5.5px;
+} 
+
+.head-item3 {
+	position: relative;
+	float: right;
+	right: 200px;
+	bottom: 300px;
+	width: 35rem;
+	height: 250px;
+	border: 3px solid green;
+	background-color: grey;
+} 
+.head-item4 {
+	position: relative;
+	float: right;
+	left: : 150rem;
+	bottom: 150px;
+	width: 35rem;
+	height: 250px;
+	border: 3px solid green;
+	background-color: grey;
+}
+
+.header-box-title {
+	font-family: 'Oswald', sans-serif;
+	font-size: 2.6rem;
+	color: white;
+	text-shadow: 0px 3px 10px rgba(0,0,0,0.19);
+	text-align: center;
+	margin-bottom: 0px;
+	margin-top: 10px;
+}
+
+.header-box-content {
+	font-family: 'montserrat', sans-serif;
+	font-size: 1.42rem;
+	color: white;
+	font-weight: bold;
+	text-align: center; 
+	margin-top: 8px;
+}
+
+.header-box-button {
+	position: relative;
+	border: 0.1px;
+	border-radius: 5px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+
