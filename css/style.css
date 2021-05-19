@@ -26,14 +26,14 @@ nav img {
 
 @media (max-width: 500px){
 	nav img {
-		width: 50px;
+		width: 100px;
 		height: 30px;
 	}
 }
 
 nav span {
 	position: relative;
-	bottom: 50px;
+	bottom: 10px;
 	margin-left: 250px;
 	margin-right: 250px;
 	color: #FFF017;
@@ -53,7 +53,7 @@ nav span {
 
 nav a {
 	text-decoration: none;
-	padding-left: 65px;
+	padding-left: 70px;
 	padding-right: 65px;
 	color: white;
 	font-family: 'Geneva',sans-serif;
@@ -92,17 +92,15 @@ nav a:hover {
 	bottom: 300px;
 	width: 35rem;
 	height: 250px;
-	border: 3px solid green;
 	background-color: grey;
 } 
 .head-item4 {
 	position: relative;
 	float: right;
 	left: : 150rem;
-	bottom: 150px;
+	bottom: -20px;
 	width: 35rem;
-	height: 250px;
-	border: 3px solid green;
+	height: 100px;
 	background-color: grey;
 }
 
@@ -133,4 +131,12 @@ nav a:hover {
 	font-weight: bold;
 }
 
-
+/*BIO*/
+.head-item-bio {
+	position: relative;
+	float: right;
+	right: 200px;
+	bottom: 300px;
+	width: 30rem;
+	height: 400px;
+	background-color: grey;
