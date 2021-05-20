@@ -145,3 +145,56 @@ nav a:hover {
 	top: 100px;
 	padding-top: 5.5px;
 }
+.head-bio {
+	padding: 70px;
+	display: flex;
+	column-gap: 270PX;
+	width: auto;
+	height: 500px;
+	background-color: grey;
+}
+.head-bio-1{
+	width: 40%;
+	height: 400px;
+	background-color: white;
+}
+
+.head-bio-2{
+	width: 40%;
+	height: 400px;
+	background-color: white;
+}
+
+.head-coffee{
+	padding: 80px;
+	display: grid;
+	grid-row-gap: 30px
+	width: auto;
+	height: 500px;
+	background-color: grey;
+}
+
+.head-top{
+	width: 60%;
+	height: 200px;
+	background-color: white;
+}
+
+.head-bottom{
+	width: 70%;
+	height: 200px;
+	background-color: white;
+}
+
+.about-coffee{
+	padding: 80px 150px 30px 400px;
+	width: auto;
+	height: 400px;
+	background-color: grey;
+}
+
+.about-coffee-1{
+	width: 70%;
+	height: 300px;
+	background-color: white;
+}
