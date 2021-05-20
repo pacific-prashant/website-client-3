@@ -32,8 +32,6 @@ nav img {
 }
 
 nav span {
-	position: relative;
-	bottom: 10px;
 	margin-left: 250px;
 	margin-right: 250px;
 	color: #FFF017;
@@ -68,67 +66,54 @@ nav a:hover {
 }
 
 /*Header*/
-.head-item1 {
-	position: relative;
+.home-body {
 	width: auto;
-	height: 30rem;
-	border: 3px;
+	height: 550px;
+	background-color: #914C24;
+	display: grid;
 }
 
-.head-item2 {
-	position: relative;
-	width: 25rem;
-	height: 400px;
-	background-color: grey;
-	left: 100px;
-	top: 100px;
-	padding-top: 5.5px;
-} 
-
-.head-item3 {
-	position: relative;
-	float: right;
-	right: 200px;
-	bottom: 300px;
-	width: 35rem;
-	height: 250px;
-	background-color: grey;
-} 
-.head-item4 {
-	position: relative;
-	float: right;
-	left: : 150rem;
-	bottom: -20px;
-	width: 35rem;
+.home-body-heading {
+	width: 80%;
 	height: 100px;
-	background-color: grey;
+	margin: 0 155px 0 155px;
 }
 
-.header-box-title {
-	font-family: 'Oswald', sans-serif;
-	font-size: 2.6rem;
-	color: white;
-	text-shadow: 0px 3px 10px rgba(0,0,0,0.19);
+.home-body-heading h1 {
 	text-align: center;
-	margin-bottom: 0px;
-	margin-top: 10px;
-}
-
-.header-box-content {
-	font-family: 'montserrat', sans-serif;
-	font-size: 1.42rem;
 	color: white;
-	font-weight: bold;
-	text-align: center; 
-	margin-top: 8px;
+	font-size: 40px;
 }
 
-.header-box-button {
-	position: relative;
-	border: 0.1px;
-	border-radius: 5px;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: bold;
+.home-body-content {
+	width: 80%;
+	height: 400px;
+	display: flex;
+	margin: 0 155px 0 155px;
+}
+
+.home-body-left {
+	width: 50%;
+	background-color: white;
+}
+
+.home-body-left h2 {
+	text-align: center;
+}
+
+.home-body-right {
+	width: 50%;
+	display: grid;
+}
+
+.home-right-top {
+	height: 300px;
+	background-color: white;
+}
+
+.home-right-bottom {
+	height: 100px;
+	background-color: black;
 }
 
 /*BIO*/
@@ -140,3 +125,23 @@ nav a:hover {
 	width: 30rem;
 	height: 400px;
 	background-color: grey;
+}
+/*coffee*/
+.head-item2-coffee {
+	position: relative;
+	width: 55rem;
+	height: 200px;
+	background-color: grey;
+	left: 100px;
+	top: 100px;
+	padding-top: 5.5px;
+}
+.head-item3-coffee {
+	position: relative;
+	width: 40rem;
+	height:150px;
+	background-color: grey;
+	left: 100px;
+	top: 100px;
+	padding-top: 5.5px;
+}
