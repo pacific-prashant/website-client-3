@@ -1,8 +1,14 @@
-@media screen and (max-width: 1000px){
-  html {
-  	zoom: 1;
-  }
+/*@media only screen and (min-width: 992px) {
+	html {
+		zoom: 0.8;
+	}
 }
+
+@media only screen and (max-width: 600px) {
+	html {
+		zoom: 0.4;
+	}
+}*/
 
 body {
 	margin: 0;
@@ -410,5 +416,33 @@ nav li {
 	text-align: center;
 }
 
+.contact-space{
+	display: grid;
+	padding: 40px 200px;
+	grid-row-gap: 30px;
+	width: auto;
+	height:580px;
+	background-color: #AB6832;
+}
+.contact-info{
+	text-align: center;
+	font-size: 30px;
+	color: white;
+	font-weight: 100px;
+}
 
+.contact-1{
+	width:80%;
+	background-color: green;
+
+}
+.contact-2{
+	width: 80%;
+	background-color: blue;
+}
+
+.contact-3{
+	width: 80%;
+	background-color: yellow;
+}
 
