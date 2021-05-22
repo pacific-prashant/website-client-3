@@ -1,12 +1,12 @@
-@media only screen and (max-width: 992px) {
+@media screen and (max-width: 992px) {
 	html {
 		zoom: 0.8;
 	}
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
 	html {
-		zoom: 0.4;
+		zoom: 0.7;
 	}
 }
 
@@ -153,6 +153,7 @@ nav li {
   min-width: 160px;
   margin-top: 0px;
   text-decoration: none;
+  z-index: 5;
 }
 
 .nav-drop-item a {
@@ -173,6 +174,31 @@ nav li {
 
 .nav-drop:hover .nav-drop-item {
   display: block;
+}
+
+@media screen and (max-width: 600px) {
+	.nav-container {
+		width: 87.8%;
+		height: 200px;
+	}
+	
+	nav li {
+		margin: 4px 30px;
+	}
+
+	.top-left img {
+		margin: 20px 0px;
+	}
+
+	.top-right h1 {
+		font-size: 45px;
+		margin: 20px 40px;
+	}
+
+	.nav-bottom {
+		height: 90px;
+		margin-top: 25px;
+	}
 }
 
 /*Header*/
@@ -229,7 +255,6 @@ nav li {
 
 .home-right-top {
 	height: 300px;
-	background-color: white;
 	width: 70%;
 	margin: 0 auto;
 }
@@ -449,6 +474,11 @@ nav li {
 	margin: 10px auto;
 }
 
+.around-container-2 {
+	display: grid;
+	height: 500px;
+}
+
 /*Contact Page*/
 .contact-space {
 	display: grid;
@@ -566,4 +596,170 @@ nav li {
 	text-shadow: 5px 5px 8px rgb(0,0,0,0.5);
 	letter-spacing: 0.7px;
 	text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+	/* Home */
+	.home-body {
+		padding-top: 250px;
+		height: auto;
+		row-gap: 50px;
+	}
+
+	.home-body-heading {
+		height: 100px;
+		width: 100%;
+		margin: 0 auto;
+		margin-top: 20px;
+	}
+
+	.home-body-heading h1 {
+		font-size: 30px;
+	}
+
+	.home-body-content {
+		display: flex;
+		height: auto;
+		margin-bottom: 70px;
+	}
+
+	.home-body-left {
+		height: 600px;
+	}
+
+	.home-body-left h2 {
+		font-size: 30px;
+	}
+
+	.home-body-left p {
+		font-size: 22px;
+	}
+
+	.home-body-right img {
+		width: 160px;
+		height: 250px;
+	}
+
+	.home-right-bottom {
+		visibility: hidden;
+	}
+
+	/* Bio */
+	.head-bio {
+		padding-top: 250px;
+		height: auto;
+		row-gap: 50px;
+		zoom: 1.1;
+	}
+	
+	.head-bio-title {
+		height: 100px;
+		width: 100%;
+		margin: 0 auto;
+		margin-top: 20px;
+	}
+	
+	.head-bio-title h1 {
+		font-size: 30px;
+	}
+	
+	.head-bio-down {
+		display: flex;
+		height: auto;
+		margin-bottom: 70px;
+	}
+	
+	.head-bio-1 {
+		height: 530px;
+	}
+	
+	.head-bio-1 h2 {
+		font-size: 30px;
+	}
+	
+	.head-bio-1 p {
+		margin-top: 10px;
+		font-size: 17px;
+	}
+	
+	.head-bio-2 {
+		width: 50%;
+		height: 400px;
+		margin: 0 30px;
+	}
+	
+	.head-bio-2 img {
+		width: 160px;
+		height: 250px;
+	}
+
+	/* Bio */
+	.about-space {
+		height: 800px;
+	}
+
+	.space-down {
+		height: auto;
+	}
+
+	.space-down p {
+		margin: 40px 50px;
+	}
+
+	/* Around The World */
+	.around-container {
+		padding-top: 200px;
+		height: auto;
+		width: auto;
+	}
+
+	.around-container-2 {
+		visibility: hidden;
+		height: 0;
+	}
+
+	.experience-1  {
+		height: 400px;
+	}
+
+	/* Contact */
+	.contact-space {
+		padding-top: 300px;
+	}
+
+	.contact-3 {
+		height: 200px;
+	}
+
+	.contact-3 img {
+		margin: 0 25px;
+	}
+	
+	/* Footer */
+	.footer-main {
+		justify-content: center;
+	}
+	.footer-left {
+		width: 5%;
+	}
+
+	.footer-left img {
+		visibility: hidden;
+	}
+
+	.footer-left h3 {
+		visibility: hidden;
+	}
+
+	.footer-middle h2 {
+		margin-top: 10px;
+	}
+
+	.footer-right {
+		width: 5%;
+	}
+
+	.footer-right h2 {
+		visibility: hidden;
+	}
 }
