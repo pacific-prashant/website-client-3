@@ -235,16 +235,17 @@ nav li {
 }
 
 .home-body-left h2 {
+	margin: 20px auto;
 	text-align: center;
 	font-family: 'Geneva',sans-serif;
 	font-size: 45px;
 }
 
 .home-body-left p {
-	margin-top: 50px;
+	margin-top: 30px;
 	font-family: 'Geneva',sans-serif;
 	text-align: justify;
-	font-size: 25px;
+	font-size: 24px;
 }
 
 .home-body-right {
@@ -272,7 +273,7 @@ nav li {
 }
 
 .home-right-bottom h2 {
-	font-size: 20px;
+	font-size:15px;
 	font-family: 'Geneva',sans-serif;
 	text-align: center;
 	color: rgb(0,0,0,0.9);
@@ -390,7 +391,7 @@ nav li {
 }
 
 .around-1 h1 {
-	margin: 0;
+	margin: 10px auto;
 	text-align: center;
 	color: rgb(0,0,0,0.8);
 	font-family: 'Geneva',sans-serif;
@@ -430,7 +431,7 @@ nav li {
 .around-3 {
 	width: 90%;
 	margin: 0 auto;
-	height: 12%;
+	height: auto;
 	background-color: #dfb786;
 }
 
@@ -445,7 +446,7 @@ nav li {
 
 .around-title-down {
 	height: 30px;
-	margin: 0;
+	margin: 40px auto;
 	text-align: center;
 	color: rgb(0,0,0,0.8);
 	font-family: 'Geneva',sans-serif;
@@ -476,8 +477,59 @@ nav li {
 
 .around-container-2 {
 	display: grid;
-	height: 500px;
+	height: auto;
 }
+
+/*Blog Section*/
+.blog-sec {
+	width: 80%;
+	margin: 0 auto;
+	height: 600px;
+	padding-top: 120px;
+	display: grid;
+}
+
+.blog-bottom {
+	height: 400px;
+	display: flex;
+}
+
+.blog-left {
+	width: 40%;
+	margin: 0 auto;
+	background-color: #dfb786;
+}
+
+.blog-left img {
+	margin-left: 20px;
+}
+
+.blog-left p {
+	width: 80%;
+	margin: 10px auto;
+	font-family: 'Geneva',sans-serif;
+	text-align: justify;
+	font-size: 20px;
+}
+
+.blog-right {
+	width: 40%;
+	margin: 0 auto;
+	background-color: #dfb786;
+}
+
+.blog-right img {
+	margin-left: 20px;
+}
+
+.blog-right p {
+	width: 80%;
+	margin: 10px auto;
+	font-family: 'Geneva',sans-serif;
+	text-align: justify;
+	font-size: 20px;
+}
+
 
 /*Contact Page*/
 .contact-space {
@@ -502,14 +554,15 @@ nav li {
 .contact-2 {
 	background-color: #dfb786;
 	height: 150px;
+	display: grid;
 }
 
-.contact-2 h3 {
-	margin: 30px 40px;
-	text-align: left;
-	color: rgb(0,0,0,0.9);
-	font-family: 'Geneva',sans-serif;
-	font-size: 25px;
+.contact-2 input {
+	margin: 10px 50px;
+}
+
+.contact-2 textarea {
+	margin: 10px 50px;
 }
 
 .contact-3 {
@@ -632,7 +685,7 @@ nav li {
 	}
 
 	.home-body-left p {
-		font-size: 22px;
+		font-size: 18px;
 	}
 
 	.home-body-right img {
@@ -695,6 +748,7 @@ nav li {
 
 	/* Bio */
 	.about-space {
+		padding-top: 200px;
 		height: 800px;
 	}
 
@@ -704,6 +758,7 @@ nav li {
 
 	.space-down p {
 		margin: 40px 50px;
+		font-size: 21px;
 	}
 
 	/* Around The World */
@@ -722,6 +777,16 @@ nav li {
 		height: 400px;
 	}
 
+	/*Blog*/
+
+	.blog-sec {
+		padding-top: 230px;
+	}
+
+	.blog-sec img {
+		width: 150px;
+	}
+	
 	/* Contact */
 	.contact-space {
 		padding-top: 300px;
