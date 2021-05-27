@@ -377,6 +377,35 @@ nav li {
 	margin: 50px 100px;
 }
 
+.gallery {
+	padding-top: 50px;
+	display: flex;
+	justify-content: center;
+	width: 80%;
+	margin: auto;
+}
+
+.gallery-controls {
+	display: flex;
+	justify-content: center;
+}
+
+.gallery-controls button {
+	width: 70px;
+	height: 50px;
+	background-color: burlywood;
+	color: black;
+	border: none;
+	margin: 20px 30px;
+	font-weight: 900;
+}
+
+.mySlides {
+	display: none;
+	width: 800px;
+	height: 400px;
+}
+
 /*Around World*/
 .around-container {
 	width: 80%;
@@ -678,6 +707,8 @@ nav li {
 
 	.home-body-left {
 		height: 600px;
+		margin: 0;
+		width: 50%;
 	}
 
 	.home-body-left h2 {
@@ -685,12 +716,17 @@ nav li {
 	}
 
 	.home-body-left p {
-		font-size: 18px;
+		font-size: 17px;
+	}
+
+	.home-body-right {
+		width: 50%;
 	}
 
 	.home-body-right img {
-		width: 160px;
+		width: 220px;
 		height: 250px;
+		margin: 0;
 	}
 
 	.home-right-bottom {
@@ -723,26 +759,30 @@ nav li {
 	}
 	
 	.head-bio-1 {
+		width: 50%;
 		height: 530px;
+		width: 150px;
+		margin-right: 0px;
+		margin-left: 0;
 	}
 	
 	.head-bio-1 h2 {
-		font-size: 30px;
+		font-size: 25px;
 	}
 	
 	.head-bio-1 p {
-		margin-top: 10px;
-		font-size: 17px;
+		margin-top: 5px;
+		font-size: 14.5px;
 	}
 	
 	.head-bio-2 {
 		width: 50%;
 		height: 400px;
-		margin: 0 30px;
+		margin: 0 10px;
 	}
 	
 	.head-bio-2 img {
-		width: 160px;
+		width: 240px;
 		height: 250px;
 	}
 
@@ -775,6 +815,10 @@ nav li {
 
 	.experience-1  {
 		height: 400px;
+	}
+
+	.experience-1 p {
+		font-size: 13.2px;
 	}
 
 	/*Blog*/

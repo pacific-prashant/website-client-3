@@ -60,6 +60,35 @@
 	<!-- End About Coffee Section -->
 
 
+	<div class="gallery">
+		<img class="mySlides" src="images/gallery1.png">
+		<img class="mySlides" src="images/gallery2.png">
+		<img class="mySlides" src="images/gallery3.png">
+		<img class="mySlides" src="images/gallery4.png">
+	</div>
+	<div class="gallery-controls">
+		<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+		<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+	</div>
+	<script type="text/javascript">
+		var slideIndex = 1;
+		showDivs(slideIndex);
+
+		function plusDivs(n) {
+		  showDivs(slideIndex += n);
+		}
+
+		function showDivs(n) {
+		  var i;
+		  var x = document.getElementsByClassName("mySlides");
+		  if (n > x.length) {slideIndex = 1}
+		  if (n < 1) {slideIndex = x.length} ;
+		  for (i = 0; i < x.length; i++) {
+		    x[i].style.display = "none";
+		  }
+		  x[slideIndex-1].style.display = "block";
+		}
+	</script>
 	
 	<div class="footer-main"> <!-- Footer -->
 		<div class="footer-left">
