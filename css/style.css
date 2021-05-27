@@ -1,3 +1,15 @@
+@media screen and (max-width: 992px) {
+	html {
+		zoom: 0.8;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	html {
+		zoom: 0.7;
+	}
+}
+
 body {
 	margin: 0;
     background-color: #AB6832;
@@ -467,56 +479,6 @@ nav li {
 	height: 500px;
 }
 
-/*Blog Section*/
-.blog-sec {
-	width: 80%;
-	margin: 0 auto;
-	height: 600px;
-	padding-top: 120px;
-	display: grid;
-}
-
-.blog-bottom {
-	height: 400px;
-	display: flex;
-}
-
-.blog-left {
-	width: 40%;
-	margin: 0 auto;
-	background-color: #dfb786;
-}
-
-.blog-left img {
-	margin-left: 20px;
-}
-
-.blog-left p {
-	width: 80%;
-	margin: 10px auto;
-	font-family: 'Geneva',sans-serif;
-	text-align: justify;
-	font-size: 20px;
-}
-
-.blog-right {
-	width: 40%;
-	margin: 0 auto;
-	background-color: #dfb786;
-}
-
-.blog-right img {
-	margin-left: 20px;
-}
-
-.blog-right p {
-	width: 80%;
-	margin: 10px auto;
-	font-family: 'Geneva',sans-serif;
-	text-align: justify;
-	font-size: 20px;
-}
-
 /*Contact Page*/
 .contact-space {
 	display: grid;
@@ -540,15 +502,14 @@ nav li {
 .contact-2 {
 	background-color: #dfb786;
 	height: 150px;
-	display: grid;
 }
 
-.contact-2 input {
-	margin: 10px 50px;
-}
-
-.contact-2 textarea {
-	margin: 10px 50px;
+.contact-2 h3 {
+	margin: 30px 40px;
+	text-align: left;
+	color: rgb(0,0,0,0.9);
+	font-family: 'Geneva',sans-serif;
+	font-size: 25px;
 }
 
 .contact-3 {
@@ -759,16 +720,6 @@ nav li {
 
 	.experience-1  {
 		height: 400px;
-	}
-
-	/*Blog*/
-
-	.blog-sec {
-		padding-top: 230px;
-	}
-
-	.blog-sec img {
-		width: 150px;
 	}
 
 	/* Contact */
