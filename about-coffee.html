@@ -1,27 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 	<title>ELIZABETH MATHEW</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="utf-8">
+	
+	<link rel="icon" type="image/png" sizes="32x32" href="images/logopit.png">
 
-	<!-- Favicons -->
-	<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-
-	<!-- Main CSS -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<!-- Navigation Bar -->
-	<div class="nav-container">
+	
+	<div class="nav-container"> <!-- Navigation Bar -->
 		<div class="nav-top">
 			<div class="top-left">
-				<a href="index.html"><img src="https://fakeimg.pl/100x100/?text=Hello"></a>
+			<a href="index.html"><img src="images/logo.png"></a>
 			</div>
 			<div class="top-right">
-				<h1>ELIZABETH MATHEW</h1>
+			<h1>ELIZABETH MATHEW</h1>
 			</div>
 			<div class="top-empty"></div>
 		</div>
@@ -31,15 +26,16 @@
 					<li><a class="nav-item" href="index.html">HOME</a></li>
 					<li><a class="nav-item" href="bio.html">BIO</a></li>
 					<li>
-						<div class="nav-drop">
-						    <button class="nav-drop-btn-active">COFFEE
-						    </button>
-						    <div class="nav-drop-item">
-						      <a href="about-coffee.html">ABOUT COFFEE</a>
-						      <a href="coffee-around-world.html">AROUND THE WORLD</a>
-						      <a href="baristas.html">BARISTAS</a>
-						    </div>
-						</div>
+					<div class="nav-item-active nav-drop">
+					    <button class="nav-drop-btn">COFFEE
+					    </button>
+					    <div class="nav-drop-item">
+					      <a href="about-coffee.html">ABOUT COFFEE</a>
+					      <a href="coffee-around-world.html">AROUND THE WORLD</a>
+					      <a href="baristas.html">BARISTAS</a>
+					      <a href="blog.html">BLOG</a>
+					    </div>
+					</div>
 					</li>
 					<li><a class="nav-item" href="experience.html">EXPERIENCE</a></li>
 					<li><a class="nav-item" href="contact.html">CONTACT</a></li>
@@ -47,34 +43,67 @@
 			</nav>
 		</div>
 	</div>
-	<!-- End Navigation Bar -->
+	
 
+	
 	<!-- About Coffee Section -->
 	<div class="about-space">
 		<div class="space-top">
 			<h1>ABOUT COFFEE</h1>
 		</div>
 		<div class="space-down">
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consequat blandit orci, eu dignissim leo semper eget. Aenean at lobortis nibh. Pellentesque sed massa quis tellus pulvinar bibendum et ut lacus. Nunc eu faucibus lectus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin a lacinia risus. Sed viverra, risus cursus porttitor maximus, nibh justo tristique turpis, at cursus mauris lacus at ante. Vestibulum tristique vel nisi auctor posuere.</p>
+			<p>Coffee is more than just a drink: It’s a culture, an economy, an art, a science — and a passion. Whether you're new to the brew or an espresso expert, whether you prefer it with or without caffeine, there's always more to learn about coffee. In the commercial coffee trade, there are two main coffee species – Arabica and Canephora (more commonly called Robusta).
+			The Arabica bean differs from its counterpart the Robusta, in that it is flatter and slightly longer in shape. It produces a milder coffee that has a softer aromatic flavour.In comparison, Robusta beans are higher in caffeine (about 50-60% more) and have a stronger, more nutty flavour. Robusta beans are more cost effective and are used in instant and blended coffees.
+			</p>
 		</div>
 	</div>
 	<!-- End About Coffee Section -->
 
-	<!-- Footer -->
-	<div class="footer-main">
+
+	<div class="gallery">
+		<img class="mySlides" src="images/gallery1.png">
+		<img class="mySlides" src="images/gallery2.png">
+		<img class="mySlides" src="images/gallery3.png">
+		<img class="mySlides" src="images/gallery4.png">
+	</div>
+	<div class="gallery-controls">
+		<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+		<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+	</div>
+	<script type="text/javascript">
+		var slideIndex = 1;
+		showDivs(slideIndex);
+
+		function plusDivs(n) {
+		  showDivs(slideIndex += n);
+		}
+
+		function showDivs(n) {
+		  var i;
+		  var x = document.getElementsByClassName("mySlides");
+		  if (n > x.length) {slideIndex = 1}
+		  if (n < 1) {slideIndex = x.length} ;
+		  for (i = 0; i < x.length; i++) {
+		    x[i].style.display = "none";
+		  }
+		  x[slideIndex-1].style.display = "block";
+		}
+	</script>
+	
+	<div class="footer-main"> <!-- Footer -->
 		<div class="footer-left">
-			<a href=""><img src="https://fakeimg.pl/50x50"></a>
+			<a href="https://www.facebook.com/elizabeth.mathew.14811"><img src="images/facebook.png"></a>
 			<h3>Facebook</h3>
-			<a href=""><img src="https://fakeimg.pl/50x50"></a>
+			<a href="https://www.instagram.com/mathewelizabeth01/"><img src="images/instagram.png"></a>
 			<h3>Instagram</h3>
 		</div>
 		<div class="footer-middle">
 			<h2>Copyrights 2021. All rights reserved.</h2>
 		</div>
 		<div class="footer-right">
-			<h2>Email me:<br>xxxxxxx@gmail.com</h2>
+			<a href="mailto:mathewelizabeth40@gmail.com"><h2>Email me:<br>mathewelizabeth40@gmail.com</h2></a>
 		</div>
 	</div>
-	<!-- Footer Finish -->
+	
 </body>
 </html>
